@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.home-link {
+    text-decoration: none;
+}
+
+.navbar p {
+    color: rgb(1, 128, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    padding: 15px 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 12px 18px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.nav-links li a:hover {
+    color: white;
+    background-color: rgb(13, 160, 0);
+}
+
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.mission-title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+    font-weight: normal;
+}
+
+.our-mission {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.future-goals-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.mission-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    padding-bottom: 40px;
+    background-color: #FFDAB9;
+}
+
+.our-mission {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.mission-section {
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid black;
+}
+
+.mission-section .our-mission {
+    margin-top: 0;
+}
+
+.mission-section .mission-text {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.impact-list,
+.offer-list,
+.future-plans-list {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.impact-list li,
+.offer-list li,
+.future-plans-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+@media (max-width: 1200px) {
+    .nav-links li {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .nav-links li a {
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    .mission-title {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 22px;
+        padding: 8px 15px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        margin-right: -10px;
+    }
+
+    .nav-links li a {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar p {
+        font-size: 22px;
+    }
+
+    .mission-title {
+        font-size: 26px;
+    }
+
+    .impact-list,
+    .offer-list,
+    .future-plans-list {
+        margin-left: 20px;
+    }
+}
+

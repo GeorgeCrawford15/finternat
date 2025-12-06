@@ -168,8 +168,68 @@ h2 {
 
 .founders-title h1,
 .tech-head-title h1,
-.leaders-title h1 {
+.leaders-title h1,
+.US-leaders-title h1,
+.Co-founders-title h1 {
     font-weight: normal;
+}
+
+.US-leaders-section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.US-leaders-title {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.US-leader-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.US-leader {
+    text-align: center; 
+    padding: 20px;
+}
+
+.Co-founders-section {
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.Co-founders-title {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Co-founders-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Co-founders {
+    text-align: center; /* Corrected typo */
+    padding: 20px;
+}
+
+.Co-founders-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -189,7 +249,9 @@ h2 {
     }
     .founder-info h2,
     .leader-info h2,
-    .tech-head-info h2 {
+    .tech-head-info h2,
+    .US-leader-info h2,
+    .Co-founders-info h2 {
         font-size: 20px;
     }
     h3 {
