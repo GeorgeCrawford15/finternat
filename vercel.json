@@ -1,5 +1,4 @@
 {
-  "src": "src/index.mjs",
   "builds": [
     {
       "src": "src/index.mjs",
