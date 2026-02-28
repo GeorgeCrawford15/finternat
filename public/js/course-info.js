@@ -52,6 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.querySelector('button').addEventListener('click', () => {
-        window.location.href = `course-enrollment.html?course=${clickedCourse}&country=${country}`;
+        window.location.href = `course-enrollment?course=${clickedCourse}&country=${country}`;
     });
 });
